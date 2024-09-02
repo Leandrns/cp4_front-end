@@ -32,6 +32,11 @@
     padding: 2px;
 }
 
+#icon-toggle i {
+    font-size: 35px;
+    color: #1f1f1f;
+}
+
 .navbar-toggler {
     border: none !important;
 }
@@ -42,8 +47,9 @@
     margin-right: 8px;
 }
 
-#carrinho img {
-    width: 40px;
+#carrinho i {
+    font-size: 35px;
+    color: #1f1f1f;
 }
 
 #carrinho:hover {
