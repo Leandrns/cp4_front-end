@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.navbar {
+    background-color: #ffc0cb;
+}
+
 #navbarNav {
     justify-content: center;
 }
@@ -19,12 +23,19 @@
 }
 
 .nav-item:hover {
-    border-color: black;
+    border-color: rgb(31, 31, 31);
 }
 
 .navbar-brand img {
     width: 50px;
     margin-left: 8px;
+    transition: all .3s;
+    padding: 2px;
+}
+
+.navbar-brand img:hover {
+    scale: 1.2;
+    border-radius: 5px;
 }
 
 .navbar-toggler {
@@ -42,8 +53,8 @@
 }
 
 #carrinho:hover {
-    scale: 1.02;
-    background-color: rgb(209, 209, 209);
+    scale: 1.1;
+    background-color: rgba(247, 247, 247, 0.842);
     border-radius: 5px;
 }
 
