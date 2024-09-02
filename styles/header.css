@@ -34,11 +34,11 @@
 #carrinho {
     transition: all .3s;
     padding: 3px;
+    margin-right: 8px;
 }
 
 #carrinho img {
     width: 40px;
-    margin-right: 8px;
 }
 
 #carrinho:hover {
