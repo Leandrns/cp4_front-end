@@ -8,13 +8,13 @@
     display: grid;
     margin: 30px 40px 0 40px;
     grid-template-columns: 2fr 3fr 3fr 3fr;
-    grid-template-rows: 200px;
     grid-template-areas: 
-        "caixa caixa caixa caixa"
-        "nav r_masc r_masc r_masc"
+        "nav roupa roupa roupa"
         "nav produtos1 produtos2 produtos3"
-        "nav r_fem r_fem r_fem"
-        "nav produtos4 produtos5 produtos6";
+        "nav beleza beleza beleza"
+        "nav produtos4 produtos5 produtos6"
+        "nav casa casa casa"
+        "nav produtos7 produtos8 produtos9";
     column-gap: 30px;
     row-gap: 20px;
 }
@@ -23,18 +23,21 @@
     border: 1px solid black;
 }
 
-#caixa {
-    grid-area: caixa;
-}
 
-#r_masc{
-    grid-area: r_masc;
+#roupa{
+    grid-area: roupa;
     border: none;
     text-align: center;
 }
 
-#r_fem{
-    grid-area: r_fem;
+#beleza{
+    grid-area: beleza;
+    border: none;
+    text-align: center;
+}
+
+#casa{
+    grid-area: casa;
     border: none;
     text-align: center;
 }
@@ -62,9 +65,37 @@ div#produtos5 {
 div#produtos6 {
     grid-area: produtos6;
 }
+div#produtos7 {
+    grid-area: produtos7;
+}
+
+div#produtos8 {
+    grid-area: produtos8;
+}
+
+div#produtos9 {
+    grid-area: produtos9;
+}
 
 nav {
     grid-area: nav;
 }
 
+.card-title{
+    margin-top: 20px;
+    text-align: center;
+}
 
+.card{
+    background-color: #f5f5f5;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+}
+
+.card-text{
+    text-align: center;
+    margin-top: 20px;
+}
