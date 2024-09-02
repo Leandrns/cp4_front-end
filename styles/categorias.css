@@ -4,18 +4,67 @@
     list-style: none;
 }
 
-#layout{
+#grade {
     display: grid;
+    margin: 30px 40px 0 40px;
+    grid-template-columns: 2fr 3fr 3fr 3fr;
+    grid-template-rows: 200px;
     grid-template-areas: 
-    "imagem_principal imagem_principal imagem_principal";
+        "caixa caixa caixa caixa"
+        "nav r_masc r_masc r_masc"
+        "nav produtos1 produtos2 produtos3"
+        "nav r_fem r_fem r_fem"
+        "nav produtos4 produtos5 produtos6";
+    column-gap: 30px;
+    row-gap: 20px;
 }
 
-.imagem_principal{
-    grid-area: imagem_principal;
-    width: 100%;
-    height: 200px;
-    border-radius: 10px;
-    background-color: grey;
+#grade > * {
+    border: 1px solid black;
+}
+
+#caixa {
+    grid-area: caixa;
+}
+
+#r_masc{
+    grid-area: r_masc;
+    border: none;
+    text-align: center;
+}
+
+#r_fem{
+    grid-area: r_fem;
+    border: none;
+    text-align: center;
+}
+
+div#produtos1 {
+    grid-area: produtos1;
+}
+
+div#produtos2 {
+    grid-area: produtos2;
+}
+
+div#produtos3 {
+    grid-area: produtos3;
+}
+
+div#produtos4 {
+    grid-area: produtos4;
+}
+
+div#produtos5 {
+    grid-area: produtos5;
+}
+
+div#produtos6 {
+    grid-area: produtos6;
+}
+
+nav {
+    grid-area: nav;
 }
 
 
