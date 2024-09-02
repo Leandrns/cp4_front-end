@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbarNav {
+    justify-content: center;
+}
+
+#navbarNav ul {
+    gap: 40px;
+}
+
+.nav-item {
+    font-size: 18px;
+    border-bottom: solid 2px transparent;
+    transition: all .5s ease-out;
+}
+
+.nav-item:hover {
+    border-color: black;
+}
+
+.navbar-brand img {
+    width: 50px;
+    margin-left: 8px;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+#carrinho {
+    transition: all .3s;
+    padding: 3px;
+    margin-right: 8px;
+}
+
+#carrinho img {
+    width: 40px;
+}
+
+#carrinho:hover {
+    scale: 1.02;
+    background-color: rgb(209, 209, 209);
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 992px) {
+    #navbarNav ul {
+        gap: 10px;
+        padding: 10px 0;
+    }
+}
