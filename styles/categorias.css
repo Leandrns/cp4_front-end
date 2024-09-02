@@ -99,3 +99,16 @@ nav {
     text-align: center;
     margin-top: 20px;
 }
+
+.custom-btn {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-btn:hover {
+    background-color: pink; /* ou rosa #ffc0cb */
+    color: white;
+    border-color: pink;
+}
