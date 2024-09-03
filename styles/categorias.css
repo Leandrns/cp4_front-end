@@ -9,20 +9,20 @@
     margin: 30px 40px 40px 40px;
     grid-template-columns: 2fr 3fr 3fr 3fr;
     grid-template-areas: 
-        "aside roupa roupa roupa"
-        "aside produtos1 produtos2 produtos3"
-        "aside beleza beleza beleza"
-        "aside produtos4 produtos5 produtos6"
-        "aside casa casa casa"
-        "aside produtos7 produtos8 produtos9";
+        "filtro roupa roupa roupa"
+        "filtro produtos1 produtos2 produtos3"
+        "filtro beleza beleza beleza"
+        "filtro produtos4 produtos5 produtos6"
+        "filtro casa casa casa"
+        "filtro produtos7 produtos8 produtos9";
     column-gap: 30px;
-    row-gap: 20px;
+    row-gap: 40px;
 }
 @media (max-width: 1040px) {
     #grade {
         grid-template-columns: 2fr 2fr 2fr;
         grid-template-areas: 
-            "aside aside aside"
+            "filtro filtro filtro"
             "roupa roupa roupa"
             "produtos1 produtos2 produtos3"
             "beleza beleza beleza"
@@ -30,34 +30,12 @@
             "casa casa casa"
             "produtos7 produtos8 produtos9";
     }
-    aside {
+    #filtro {
+
         margin-bottom: 20px;
     }
 }
 
-@media (max-width: 650px) {
-    #grade {
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-            "aside"
-            "roupa"
-            "produtos1"
-            "produtos2"
-            "produtos3"
-            "beleza"
-            "produtos4"
-            "produtos5"
-            "produtos6"
-            "casa"
-            "produtos7"
-            "produtos8"
-            "produtos9";
-    }
-
-    aside {
-        margin-bottom: 20px;
-    }
-}
 #roupa{
     grid-area: roupa;
     border: none;
@@ -74,6 +52,10 @@
     grid-area: casa;
     border: none;
     text-align: center;
+}
+
+#filtro {
+    grid-area: filtro;
 }
 
 div#produtos1 {
@@ -111,9 +93,6 @@ div#produtos9 {
     grid-area: produtos9;
 }
 
-aside {
-    grid-area: aside;
-}
 
 .card-title{
     margin-top: 20px;
@@ -136,6 +115,31 @@ aside {
 .btn{
     background-color: black;
     color: white;
+    width: 100%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 10px; 
+    border: none; 
+    text-align: center;
+    font-size: 16px; 
+    text-decoration: none;
+}
+
+.btn i {
+    margin-right: 8px; 
+    font-size: 18px; 
+}
+
+@media (max-width: 767px) {
+    .btn {
+        font-size: 14px; /
+    }
+
+    .btn i {
+        font-size: 16px; 
+        margin-right: 6px; 
+    }
 }
 
 .card-text{
@@ -197,11 +201,6 @@ aside {
     transition: background-color 0.3s ease;
 }
 
-.btn_ico{
-    justify-content: space-between;
-    display: flex;
-    margin: 0 5px 0 5px;
-}
 
 .bi-cart-plus-fill{
     color: black;
