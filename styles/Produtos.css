@@ -1,11 +1,11 @@
-#Produtos{
+#Produtos {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 3fr 1fr;
     padding-top: 50px;
     row-gap: 30px;
 }
 
-#main-btn{
+#main-btn {
     background-color: beige;
     color: black;
     text-transform: uppercase;
@@ -16,7 +16,7 @@
     border: 3px solid transparent;
 }
 
-main-btn:hover{
+main-btn:hover {
     text-decoration: none;
     color: black;
     background-color: transparent;
@@ -27,23 +27,37 @@ main-btn:hover{
     .Detalhes {
         margin-top: 20px;
     }
+
+    #Produtos {
+        grid-template-columns: 1fr;
+    }
 }
 
-
-.foto{
-    margin-left: 300px;
+.foto {
+    border: solid 1px #1f1f1f;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0 30px;
 }
 
-.Detalhes{
+.foto img {
+    width: 55vw;
+}
+
+.Detalhes {
     margin-right: 40px;
 }
 
-.desc{
+.desc {
     margin-left: 40px;
 }
+
 p {
     margin-left: 30px;
 }
-.preco{
+
+.preco {
     margin-left: 13px;
 }
