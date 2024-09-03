@@ -7,13 +7,13 @@
 header {
     position: sticky;
     top: 0;
-    z-index: 2;
+    z-index: 3;
 }
 
 .navbar {
     background-color: #ffc0cb;
     box-shadow: 0 0 8px #1f1f1f;
-    z-index: 2;
+    z-index: 3;
 }
 
 #navbarNav {
