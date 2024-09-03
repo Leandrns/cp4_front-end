@@ -18,7 +18,46 @@
     column-gap: 30px;
     row-gap: 20px;
 }
+@media (max-width: 1040px) {
+    #grade {
+        grid-template-columns: 2fr 2fr 2fr;
+        grid-template-areas: 
+            "aside aside aside"
+            "roupa roupa roupa"
+            "produtos1 produtos2 produtos3"
+            "beleza beleza beleza"
+            "produtos4 produtos5 produtos6"
+            "casa casa casa"
+            "produtos7 produtos8 produtos9";
+    }
+    aside {
+        margin-bottom: 20px;
+    }
+}
 
+@media (max-width: 650px) {
+    #grade {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "aside"
+            "roupa"
+            "produtos1"
+            "produtos2"
+            "produtos3"
+            "beleza"
+            "produtos4"
+            "produtos5"
+            "produtos6"
+            "casa"
+            "produtos7"
+            "produtos8"
+            "produtos9";
+    }
+
+    aside {
+        margin-bottom: 20px;
+    }
+}
 #roupa{
     grid-area: roupa;
     border: none;
