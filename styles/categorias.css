@@ -6,8 +6,7 @@
 
 #grade {
     display: grid;
-    margin: 30px 40px 40px 40px;
-    grid-template-columns: 2fr 3fr 3fr 3fr;
+    margin: 30px 20px 40px 20px;
     grid-template-areas: 
         "filtro roupa roupa roupa"
         "filtro produtos1 produtos2 produtos3"
@@ -18,23 +17,47 @@
     column-gap: 30px;
     row-gap: 40px;
 }
-@media (max-width: 1040px) {
+@media (max-width: 975px) {
     #grade {
-        grid-template-columns: 2fr 2fr 2fr;
+        grid-template-columns: 1fr 2fr;
         grid-template-areas: 
-            "filtro filtro filtro"
-            "roupa roupa roupa"
-            "produtos1 produtos2 produtos3"
-            "beleza beleza beleza"
-            "produtos4 produtos5 produtos6"
-            "casa casa casa"
-            "produtos7 produtos8 produtos9";
+            "filtro roupa "
+            "filtro produtos1"
+            "filtro produtos2"
+            "filtro produtos3"
+            "filtro beleza"
+            "filtro produtos4"
+            "filtro produtos4"
+            "filtro produtos6"
+            "filtro casa"
+            "filtro produtos7" 
+            "filtro produtos8" 
+            "filtro produtos9";       
     }
     #filtro {
-
         margin-bottom: 20px;
     }
+
+    .btn.custom-btn p{
+        padding: 0.5rem;
+        display: none;
+        align-items: center;
+        justify-content: center;
+    }
 }
+
+@media (max-width: 767px) {
+    
+    .btn {
+        font-size: 14px; /
+    }
+
+    .btn i {
+        font-size: 16px; 
+        margin-right: 6px; 
+    }
+}
+
 
 #roupa{
     grid-area: roupa;
@@ -56,6 +79,7 @@
 
 #filtro {
     grid-area: filtro;
+    
 }
 
 div#produtos1 {
@@ -103,8 +127,29 @@ div#produtos9 {
     background-color: #f5f5f5;
 }
 
-.custom-card {
-    transition: transform 0.3s, background-color 0.3s;
+.card-img-top{
+    height: auto;
+    width: 100%;
+    object-fit: 100%;
+}
+
+
+
+.custom-card .custon-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.btn_ico{
+    display: flex;
+    margin-top: auto;
 }
 
 .custom-card:hover {
@@ -131,17 +176,6 @@ div#produtos9 {
     font-size: 18px; 
 }
 
-@media (max-width: 767px) {
-    .btn {
-        font-size: 14px; /
-    }
-
-    .btn i {
-        font-size: 16px; 
-        margin-right: 6px; 
-    }
-}
-
 .card-text{
     text-align: center;
     margin-top: 20px;
@@ -160,12 +194,20 @@ div#produtos9 {
     border-color: pink;
 }
 
-.custom-btn {
-    background-color: white;
-    color: black;
-    border: 2px solid black;
-    transition: background-color 0.3s, color 0.3s;
+.btn.custom-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
+
+.btn.custom-btn i{
+    font-size: 1.3rem;
+}
+
+.btn.custom-btn p{
+    margin: 0;
+}
+
 
 .custom-btn:hover {
     background-color: pink;
@@ -205,4 +247,11 @@ div#produtos9 {
 .bi-cart-plus-fill{
     color: black;
     font-size: 24px;
+}
+
+.container{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    padding: 1rem;
 }

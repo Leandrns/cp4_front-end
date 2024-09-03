@@ -51,8 +51,8 @@
             <div class="card-body">
                 <h5 class="card-title">Vestido Crochet Estampado</h5>
                 <p class="card-text">R$490,00</p>
-                <div class="btn_ico">
-                    <a href="#" class="btn custom-btn"><i class="bi bi-cart-plus-fill"></i>Adicionar ao Carrinho</a>
+                <div class="btn_ico mt-auto">
+                    <a href="#" class="btn custom-btn"><i class="bi bi-cart-plus-fill"></i><p>Adicionar ao Carrinho</p></a>
                 </div>
             </div>
         </div>
@@ -62,7 +62,7 @@
                 <h5 class="card-title">Vestido estampado com flores</h5>
                 <p class="card-text">R$399,00</p>
                 <div class="btn_ico">
-                    <a href="#" class="btn custom-btn"><i class="bi bi-cart-plus-fill"></i>Adicionar ao Carrinho</a>
+                    <a href="#" class="btn custom-btn"><i class="bi bi-cart-plus-fill"></i><p>Adicionar ao Carrinho</p></a>
                 </div>
             </div>
         </div>
@@ -72,7 +72,7 @@
                 <h5 class="card-title">Vestido Cropped a Brasileira</h5>
                 <p class="card-text">R$599,00</p>
                 <div class="btn_ico">
-                    <a href="#" class="btn custom-btn"><i class="bi bi-cart-plus-fill"></i>Adicionar ao Carrinho</a>
+                    <a href="#" class="btn custom-btn"><i class="bi bi-cart-plus-fill"></i><p>Adicionar ao Carrinho</p></a>
                 </div>
             </div>
         </div>
@@ -83,7 +83,7 @@
                 <h5 class="card-title">Kit Presente Baunilha & Açafrão</h5>
                 <p class="card-text">R$180,00</p>
                 <div class="btn_ico">
-                    <a href="#" class="btn custom-btn"><i class="bi bi-cart-plus-fill"></i>Adicionar ao Carrinho</a>
+                    <a href="#" class="btn custom-btn"><i class="bi bi-cart-plus-fill"></i><p>Adicionar ao Carrinho</p></a>
                 </div>
             </div>
         </div>
@@ -93,7 +93,7 @@
                 <h5 class="card-title">Perfume Granado Tropicália</h5>
                 <p class="card-text">R$275,00</p>
                 <div class="btn_ico">
-                    <a href="#" class="btn custom-btn"><i class="bi bi-cart-plus-fill"></i>Adicionar ao Carrinho</a>
+                    <a href="#" class="btn custom-btn"><i class="bi bi-cart-plus-fill"></i><p>Adicionar ao Carrinho</p></a>
                 </div>
             </div>
         </div>
@@ -103,7 +103,7 @@
                 <h5 class="card-title">Perfume Granado Flora Magnífica</h5>
                 <p class="card-text">R$300,00</p>
                 <div class="btn_ico">
-                    <a href="#" class="btn custom-btn"><i class="bi bi-cart-plus-fill"></i>Adicionar ao Carrinho</a>
+                    <a href="#" class="btn custom-btn"><i class="bi bi-cart-plus-fill"></i><p>Adicionar ao Carrinho</p></a>
                 </div>
             </div>
         </div>
@@ -114,7 +114,7 @@
                 <h5 class="card-title">Difusor de Ambiente Bossa 235ml</h5>
                 <p class="card-text">R$170,00</p>
                 <div class="btn_ico">
-                    <a href="#" class="btn custom-btn"><i class="bi bi-cart-plus-fill"></i>Adicionar ao Carrinho</a>
+                    <a href="#" class="btn custom-btn"><i class="bi bi-cart-plus-fill"></i><p>Adicionar ao Carrinho</p></a>
                 </div>
             </div>
         </div>
@@ -124,7 +124,7 @@
                 <h5 class="card-title">Velas Granado Folha Imperial</h5>
                 <p class="card-text">R$90,00</p>
                 <div class="btn_ico">
-                    <a href="#" class="btn custom-btn"><i class="bi bi-cart-plus-fill"></i>Adicionar ao Carrinho</a>
+                    <a href="#" class="btn custom-btn"><i class="bi bi-cart-plus-fill"></i><p>Adicionar ao Carrinho</p></a>
                 </div>
             </div>
         </div>
@@ -134,7 +134,7 @@
                 <h5 class="card-title">Spray de Ambientes Bossa</h5>
                 <p class="card-text">R$70,00</p>
                 <div class="btn_ico">
-                    <a href="#" class="btn custom-btn"><i class="bi bi-cart-plus-fill"></i>Adicionar ao Carrinho</a>
+                    <a href="#" class="btn custom-btn"><i class="bi bi-cart-plus-fill"></i><p>Adicionar ao Carrinho</p></a>
                 </div>
             </div>
         </div>
@@ -145,24 +145,24 @@
 
                 <div class="mb-4">
                     <h5 class="text-center">Preço</h5>
-                    <input type="range" class="form-range" min="0" max="1000" step="50" id="priceRange">
-                    <span class="d-block text-center" id="priceRangeValue">Até R$ 1000</span>
+                    <input type="range" class="form-range" min="0" max="599" step="50" id="priceRange">
+                    <span class="d-block text-center" id="priceRangeValue">Até R$ R$599,00</span>
                 </div>
 
                 <div class="filter-section mb-4">
                     <h5 class="text-center">Tipo de Produto</h5>
-                    <select class="form-select" id="selectTipo">
-                        <option>Roupas</option>
-                        <option>Beleza</option>
-                        <option>Casa</option>
+                    <select class="form-select" id="selectTipo" onchange="location = this.value;">
+                        <option value="#roupa">Roupas</option>
+                        <option value="#beleza">Beleza</option>
+                        <option value="#casa">Casa</option>
                     </select>
                 </div>
 
                 <div class="filter-section mb-4">
                     <h5 class="text-center">Marca</h5>
                     <select class="form-select">
-                        <option>Marca 1</option>
-                        <option>Marca 2</option>
+                        <option>Granado</option>
+                        <option>Bossa</option>
                     </select>
                 </div>
             </div>
