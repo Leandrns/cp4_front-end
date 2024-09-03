@@ -28,3 +28,22 @@ main-btn:hover{
         margin-top: 20px;
     }
 }
+
+
+.foto{
+    margin-left: 300px;
+}
+
+.Detalhes{
+    margin-right: 40px;
+}
+
+.desc{
+    margin-left: 40px;
+}
+p {
+    margin-left: 30px;
+}
+.preco{
+    margin-left: 13px;
+}
