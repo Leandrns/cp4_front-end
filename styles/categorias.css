@@ -6,23 +6,18 @@
 
 #grade {
     display: grid;
-    margin: 30px 40px 0 40px;
+    margin: 30px 40px 40px 40px;
     grid-template-columns: 2fr 3fr 3fr 3fr;
     grid-template-areas: 
-        "nav roupa roupa roupa"
-        "nav produtos1 produtos2 produtos3"
-        "nav beleza beleza beleza"
-        "nav produtos4 produtos5 produtos6"
-        "nav casa casa casa"
-        "nav produtos7 produtos8 produtos9";
+        "aside roupa roupa roupa"
+        "aside produtos1 produtos2 produtos3"
+        "aside beleza beleza beleza"
+        "aside produtos4 produtos5 produtos6"
+        "aside casa casa casa"
+        "aside produtos7 produtos8 produtos9";
     column-gap: 30px;
     row-gap: 20px;
 }
-
-#grade > * {
-    border: 1px solid black;
-}
-
 
 #roupa{
     grid-area: roupa;
@@ -77,8 +72,8 @@ div#produtos9 {
     grid-area: produtos9;
 }
 
-nav {
-    grid-area: nav;
+aside {
+    grid-area: aside;
 }
 
 .card-title{
@@ -88,6 +83,15 @@ nav {
 
 .card{
     background-color: #f5f5f5;
+}
+
+.custom-card {
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.custom-card:hover {
+    background-color: pink; 
+    transform: scale(1.05); 
 }
 
 .btn{
@@ -108,7 +112,59 @@ nav {
 }
 
 .custom-btn:hover {
-    background-color: pink; /* ou rosa #ffc0cb */
+    background-color: pink; 
     color: white;
     border-color: pink;
+}
+
+.custom-btn {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-btn:hover {
+    background-color: pink;
+    color: white;
+    border: solid 2px white;
+    box-shadow: 0,0,0,0.5 black;
+}
+
+.custom-card {
+    transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card:hover {
+    background-color: pink; 
+    transform: scale(1.05); 
+    
+}
+
+#priceRange::-webkit-slider-thumb{
+    
+    background-color: pink;
+}
+
+.form-select option:checked{
+    background-color: pink;
+}
+
+.form-select {
+    background-color: white; 
+    color: black; 
+    padding: 8px; 
+    transition: background-color 0.3s ease;
+}
+
+.btn_ico{
+    justify-content: space-between;
+    display: flex;
+    margin: 0 5px 0 5px;
+}
+
+.bi-cart-plus-fill{
+    color: black;
+    font-size: 24px;
 }
