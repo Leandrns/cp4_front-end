@@ -82,7 +82,7 @@ h2#casa{
 
 .custom-card:hover {
     background-color: pink; 
-    transform: scale(1.05); 
+    transition: ease 0.5s; 
 }
 
 .btn{
@@ -120,6 +120,7 @@ h2#casa{
     background-color: pink; 
     color: white;
     border-color: pink;
+    transition: ease 0.5s;
 }
 
 .btn.custom-btn {
