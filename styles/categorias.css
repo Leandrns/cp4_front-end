@@ -58,7 +58,7 @@ h2#casa{
 }
 
 .card-img-top{
-    height: 173px;
+    height: 310px;
     width: 100%;
     object-fit: cover;
 }
@@ -104,9 +104,11 @@ h2#casa{
     font-size: 18px; 
 }
 
-.card-text{
+p .card-text{
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .custom-btn {
@@ -136,7 +138,6 @@ h2#casa{
 .btn.custom-btn p{
     margin: 0;
 }
-
 
 .custom-btn:hover {
     background-color: pink;
@@ -182,4 +183,10 @@ h2#casa{
         align-items: center;
         justify-content: center;
     }
+    .card-title{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
 }
