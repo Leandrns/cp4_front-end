@@ -4,8 +4,16 @@
     box-sizing: border-box;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
 .navbar {
     background-color: #ffc0cb;
+    box-shadow: 0 0 8px #1f1f1f;
+    z-index: 3;
 }
 
 #navbarNav {
@@ -26,16 +34,26 @@
     border-color: rgb(31, 31, 31);
 }
 
-.navbar-brand img {
-    width: 50px;
+.navbar-brand {
+    background-color: rgba(247, 247, 247, 0.842);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
     margin-left: 8px;
-    transition: all .3s;
-    padding: 2px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
 }
 
-.navbar-brand img:hover {
-    scale: 1.2;
-    border-radius: 5px;
+.navbar-brand img {
+    width: 65px;
+    height: 70px;
+    margin-top: -5px;
+}
+
+#icon-toggle i {
+    font-size: 35px;
+    color: #1f1f1f;
 }
 
 .navbar-toggler {
@@ -48,8 +66,9 @@
     margin-right: 8px;
 }
 
-#carrinho img {
-    width: 40px;
+#carrinho i {
+    font-size: 35px;
+    color: #1f1f1f;
 }
 
 #carrinho:hover {

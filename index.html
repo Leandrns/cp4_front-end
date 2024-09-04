@@ -7,40 +7,36 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/section-produtos.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-        <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img
-                        src="https://images.vexels.com/media/users/3/136470/isolated/preview/30a7086302ed495d7ea3f532484c2d44-logotipo-da-folha-da-natureza.png"
-                        alt="logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span id="icon-toggle"><i class="bi bi-list"></i></span>
                 </button>
+                <a class="navbar-brand" href="#"><img src="images/logo_p.png" alt="logo"></a>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link active" href="#">Início</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Categorias</a>
+                            <a class="nav-link" href="pages/categorias.html">Categorias</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Detalhes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">Contato</a>
+                            <a class="nav-link" href="#">Contato</a>
                         </li>
                     </ul>
                 </div>
-                <a href="" id="carrinho"><img src="images/icon_carrinho.svg" alt=""></a>
+                <a href="" id="carrinho"><i class="bi bi-cart"></i></a>
             </div>
         </nav>
     </header>
@@ -73,81 +69,81 @@
 
     <section id="section-produtos">
         <h2 class="titulo">NOSSOS PRODUTOS</h2>
-        <div id="roupas" class="row">
-            <p class="titulo-categoria col-12">Roupas</p>
-            <div class="card col-5 col-lg-3 col-xl-3">
-                <img src="images/img_roupa.jpg" class="card-img-top" alt="...">
+        <p class="titulo-categoria">Roupas</p>
+        <div id="roupas" class="grid-cards">
+            <div class="card">
+                <img src="images/roupa-img1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
-            <div class="card col-5 col-lg-3 col-xl-3">
-                <img src="images/img_roupa.jpg" class="card-img-top" alt="...">
+            <div class="card">
+                <img src="images/roupa-img2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
-            <div class="card col-5 col-lg-3 col-xl-3">
-                <img src="images/img_roupa.jpg" class="card-img-top" alt="...">
+            <div class="card">
+                <img src="images/roupa-img3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
-            <div class="card col-5 col-lg-3 col-xl-3">
-                <img src="images/img_roupa.jpg" class="card-img-top" alt="...">
+            <div class="card">
+                <img src="images/roupa-img4.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
-            <div class="card col-5 col-lg-3 col-xl-3">
-                <img src="images/img_roupa.jpg" class="card-img-top" alt="...">
+            <div class="card">
+                <img src="images/roupa-img5.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
-            <div class="card col-5 col-lg-3 col-xl-3">
-                <img src="images/img_roupa.jpg" class="card-img-top" alt="...">
+            <div class="card">
+                <img src="images/roupa-img6.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
         </div>
 
-        <div id="beleza" class="row">
-            <p class="titulo-categoria col-12">Beleza</p>
-            <div class="card col-5 col-lg-3 col-xl-3">
-                <img src="images/img_roupa.jpg" class="card-img-top" alt="...">
+        <p class="titulo-categoria">Beleza</p>
+        <div id="beleza" class="grid-cards">
+            <div class="card">
+                <img src="images/beleza-img1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
-            <div class="card col-5 col-lg-3 col-xl-3">
-                <img src="images/img_roupa.jpg" class="card-img-top" alt="...">
+            <div class="card">
+                <img src="images/beleza-img2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
-            <div class="card col-5 col-lg-3 col-xl-3">
-                <img src="images/img_roupa.jpg" class="card-img-top" alt="...">
+            <div class="card">
+                <img src="images/beleza-img3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
-            <div class="card col-5 col-lg-3 col-xl-3">
-                <img src="images/img_roupa.jpg" class="card-img-top" alt="...">
+            <div class="card">
+                <img src="images/beleza-img4.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
-            <div class="card col-5 col-lg-3 col-xl-3">
-                <img src="images/img_roupa.jpg" class="card-img-top" alt="...">
+            <div class="card">
+                <img src="images/beleza-img5.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p>
                 </div>
             </div>
-            <div class="card col-5 col-lg-3 col-xl-3">
-                <img src="images/img_roupa.jpg" class="card-img-top" alt="...">
+            <div class="card">
+                <img src="images/beleza-img6.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p>
@@ -155,41 +151,41 @@
             </div>
         </div>
 
-        <div id="casa" class="row">
-            <p class="titulo-categoria col-12">Casa</p>
-            <div class="card col-5 col-lg-3 col-xl-3">
-                <img src="images/img_roupa.jpg" class="card-img-top" alt="...">
+        <p class="titulo-categoria">Casa</p>
+        <div id="casa" class="grid-cards">
+            <div class="card">
+                <img src="images/casa-img1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
-            <div class="card col-5 col-lg-3 col-xl-3">
-                <img src="images/img_roupa.jpg" class="card-img-top" alt="...">
+            <div class="card">
+                <img src="images/casa-img2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
-            <div class="card col-5 col-lg-3 col-xl-3">
-                <img src="images/img_roupa.jpg" class="card-img-top" alt="...">
+            <div class="card">
+                <img src="images/casa-img3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
-            <div class="card col-5 col-lg-3 col-xl-3">
-                <img src="images/img_roupa.jpg" class="card-img-top" alt="...">
+            <div class="card">
+                <img src="images/casa-img4.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
-            <div class="card col-5 col-lg-3 col-xl-3">
-                <img src="images/img_roupa.jpg" class="card-img-top" alt="...">
+            <div class="card">
+                <img src="images/casa-img5.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p>
                 </div>
             </div>
-            <div class="card col-5 col-lg-3 col-xl-3">
-                <img src="images/img_roupa.jpg" class="card-img-top" alt="...">
+            <div class="card">
+                <img src="images/casa-img6.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                         card's content.</p>
@@ -225,7 +221,7 @@
                 <li>
                     <h3>MENU</h3>
                 </li>
-                <li><a href="navbar" class="footer-link"></a>Início</li>
+                <li><a href="#" class="footer-link"></a>Início</li>
                 <li><a href="#####" class="footer-link">Produtos</a></li>
                 <li><a href="#####" class="footer-link">Categorias</a></li>
                 <li><a href="#####" class="footer-link">Contato</a></li>
