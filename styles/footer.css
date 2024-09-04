@@ -1,34 +1,35 @@
 body{
     margin: 10px;
-    background-color: rgb(100, 163, 100);
+    background-color: #ffc0cb;
     border: solid 3px black;
-    height: 700px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+}
+.mb-3{
+    display: grid;
+    text-align: left;
 }
 h1{
     height: 40px;
     font-size:35px;
-    display: block;
-    margin-inline-start: 400px;
-    margin-inline-end: 0px;
-}
-section{
     display: grid;
-    font-size: 20px;
-    margin-inline-start: 0px;
-    justify-items: center;
+    margin-inline-start: 100px;
 }
-div{
-    margin-inline-start: 300px;
-    font-size: 15px;
+a{
     display: grid;
-    grid-template-columns: 2fr  2fr;
-    grid-template-rows: 35px 35px;
+    text-align: center;
+}
+#PAS{
+    display: grid;
+    text-align: center;
+    margin-inline-start: 10px;
 }
 p{
-    height: 15px;
+    height: 1px;
 }
 img{
     height: 150px;
-    margin-inline-start: 550px;
     display: grid;
+    margin-inline-start: 175px;
 }
