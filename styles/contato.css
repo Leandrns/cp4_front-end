@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .col {
     padding: 0 !important;
 }
@@ -23,10 +17,6 @@ body {
 
 .formulario {
     padding: 20px !important;
-}
-
-.capa {
-    
 }
 
 .capa img {
@@ -68,6 +58,6 @@ body {
     }
 
     .tela-contato {
-        margin: 30px 10px !important;
+        margin: 30px 30px !important;
     }
 }

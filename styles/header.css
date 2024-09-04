@@ -11,10 +11,6 @@ header {
     z-index: 3;
 }
 
-.nav-link.active {
-    
-}
-
 .navbar {
     background-color: #ffc0cb;
     box-shadow: 0 0 8px #1f1f1f;
@@ -38,7 +34,7 @@ header {
 
 .nav-item .nav-link:hover {
     border-color: rgb(31, 31, 31);
-    scale: 1.05;
+    scale: 1.025;
 }
 
 .nav-item .nav-link.active {
