@@ -24,13 +24,18 @@
     border: solid 1px #ffc0cb;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .Detalhes {
         margin-top: 20px;
+        margin-left: 30px;
     }
 
     #Produtos {
         grid-template-columns: 1fr;
+    }
+    
+    .preco {
+        margin-bottom: 0px !important;
     }
 }
 
@@ -55,10 +60,47 @@
     margin-left: 40px;
 }
 
-p {
+.texto {
     margin-left: 30px;
 }
 
 .preco {
     margin-left: 13px;
+    margin-bottom: 130px;
+}
+
+.star{
+    color: #ed9d00;
+    font-size: large;
+}
+
+div.star p{
+    display: flex;
+}
+
+.heart i{
+    border: #ffc0cb 2px solid;
+    border-radius: 50%;
+    color: #ffc0cb;
+    width: 33px;
+    height: 33px;
+    text-align: center;
+}
+
+.heart i:hover{
+    background-color: #ffc0cb;
+    color: white;
+}
+
+.heart{
+    display: flex;
+    align-items: center;
+    font-size: 135%;
+}
+
+.fav{
+    font-size: 13px;
+    color: black;
+    margin: 0;
+    margin-left: 10px;
 }
