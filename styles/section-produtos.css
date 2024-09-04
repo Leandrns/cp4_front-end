@@ -45,6 +45,5 @@
 .card:hover {
     scale: 1.03;
     box-shadow: 0 0 10px #a5a5a5;
-
-    background-color: #ffc0cb;
+    background-color: #ffc0cb86;
 }
