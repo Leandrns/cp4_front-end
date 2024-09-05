@@ -1,6 +1,6 @@
 <h1 align="center">EcoTrend</h1>
 
-<h2 align="center">Entrega do 4° Checkpoint da Disciplina de Front-end Desing</h2>
+<h2 align="center">Entrega do 4° Checkpoint da Disciplina de Front-end Design</h2>
 
 <div align="center">
   <img src="images/logo_b.png" style="height: 150px">
