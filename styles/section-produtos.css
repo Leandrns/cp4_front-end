@@ -49,3 +49,11 @@
     box-shadow: 0 0 10px #a5a5a5;
     background-color: #ffc0cb86;
 }
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+}
