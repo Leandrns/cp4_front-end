@@ -5,14 +5,10 @@
     font-family: 'Quicksand';
 }
 
-header {
-    position: sticky;
-    top: 0;
-    z-index: 3;
-}
-
 .navbar {
     background-color: #ffc0cb;
+    box-shadow: 0 0 8px #1f1f1f;
+    z-index: 3;
     box-shadow: 0 0 8px #1f1f1f;
     z-index: 3;
 }
@@ -34,12 +30,6 @@ header {
 
 .nav-item .nav-link:hover {
     border-color: rgb(31, 31, 31);
-    scale: 1.025;
-}
-
-.nav-item .nav-link.active {
-    border-bottom: solid 2px rgb(31, 31, 31);
-    font-weight: 700;
 }
 
 .navbar-brand {
