@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Quicksand';
 }
 
 header {
@@ -24,14 +25,21 @@ header {
     gap: 40px;
 }
 
-.nav-item {
+.nav-item .nav-link {
     font-size: 18px;
     border-bottom: solid 2px transparent;
-    transition: all .5s ease-out;
+    transition: all .3s ease-out;
+    font-weight: 550;
 }
 
-.nav-item:hover {
+.nav-item .nav-link:hover {
     border-color: rgb(31, 31, 31);
+    scale: 1.025;
+}
+
+.nav-item .nav-link.active {
+    border-bottom: solid 2px rgb(31, 31, 31);
+    font-weight: 700;
 }
 
 .navbar-brand {
