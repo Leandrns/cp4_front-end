@@ -11,6 +11,7 @@ a{
 
 div.row{
     text-align: center;
+    padding-left: 30px;
 }
 
 div.categorias{
@@ -147,6 +148,7 @@ h2#casa{
     color: white;
     border-color: pink;
     transition: ease 0.5s;
+    box-shadow: 0,0,0,0.5 black;
 }
 
 .btn.custom-btn {
@@ -166,8 +168,6 @@ h2#casa{
 }
 
 .custom-btn:hover {
-    background-color: pink;
-    color: white;
     border: solid 2px white;
     box-shadow: 0,0,0,0.5 black;
 }
@@ -212,6 +212,11 @@ h2#casa{
         padding-bottom: 0;
         margin-bottom: 0; 
         text-align: center; 
+    }
+
+    div.row{
+        text-align: center;
+        padding-left: 7px;
     }
 
 }
