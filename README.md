@@ -3,7 +3,7 @@
 <h2 align="center">Entrega do 4° Checkpoint da Disciplina de Front-end Desing</h2>
 
 <div align="center">
-  <img src="images/logo_b.jpg">
+  <img src="images/logo_b.jpeg">
 </div>
 
 ### Engenharia de Software - FIAP - 1ESA
