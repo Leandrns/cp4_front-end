@@ -19,6 +19,10 @@
     padding: 20px !important;
 }
 
+.formulario label, .formulario button {
+    font-weight: 600;
+}
+
 .capa img {
     width: 100%;
     height: 100%;
@@ -45,9 +49,18 @@
     height: 3rem;
 }
 
+.form-control:focus {
+    border-color: pink !important;
+    box-shadow: 0 0 2px 3px rgba(255, 192, 203, 0.753) !important;
+}
+
+.form-control:hover {
+    border-color: pink;
+}
+
 @media screen and (min-width: 768px) {
     .tela-contato {
-        margin: 30px 100px !important;
+        margin: 30px 150px !important;
     }
 }
 
