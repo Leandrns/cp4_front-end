@@ -43,8 +43,10 @@ h2#casa{
 }
 
 .card-title{
-    margin-top: 10px;
     text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .card{
@@ -68,9 +70,21 @@ h2#casa{
 .custom-card .card-body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; 
+    padding: 15px;
 }
 
+.custom-card .card-title {
+    margin:0 0 15px 0;  
+    padding: 0;  
+    text-align: center;
+}
+
+.custom-card .btn_ico {
+    margin-top: auto; 
+    display: flex;
+    justify-content: center; 
+}
 
 .card-body{
     display: flex;
@@ -109,11 +123,16 @@ h2#casa{
     font-size: 18px; 
 }
 
-p .card-text{
+.custom-card .card-text{
+    margin: 0 0 15px 0; 
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    padding-bottom: 20px;
+}
+
+.custom-card .btn_ico {
+    margin-top: 15px; 
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
 
 .custom-btn {
@@ -131,8 +150,10 @@ p .card-text{
 }
 
 .btn.custom-btn {
+    padding: 10px 0;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 8px;
 }
 
@@ -185,11 +206,6 @@ p .card-text{
         display: none;
         align-items: center;
         justify-content: center;
-    }
-    .card-title{
-        text-align: center;
-        margin-top: 20px;
-        font-size: 16px;
     }
 
     .card-text {
