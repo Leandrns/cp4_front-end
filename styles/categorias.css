@@ -200,23 +200,11 @@ h2#casa{
     font-size: 24px;
 }
 
-@media (max-width: 767px){
-    .btn.custom-btn p{
-        padding: 0.5rem;
-        display: none;
-        align-items: center;
-        justify-content: center;
-    }
+@media (max-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: 2fr;
+        gap: 20px;
 
-    .card-text {
-        padding-bottom: 0;
-        margin-bottom: 0; 
-        text-align: center; 
     }
-
-    div.row{
-        text-align: center;
-        padding-left: 7px;
-    }
-
 }
