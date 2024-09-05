@@ -1,5 +1,7 @@
 #Produtos {
+#Produtos {
     display: grid;
+    grid-template-columns: 3fr 1fr;
     grid-template-columns: 3fr 1fr;
     padding-top: 50px;
     row-gap: 30px;
@@ -53,9 +55,11 @@
 }
 
 .Detalhes {
+.Detalhes {
     margin-right: 40px;
 }
 
+.desc {
 .desc {
     margin-left: 40px;
 }
@@ -63,6 +67,8 @@
 .texto {
     margin-left: 30px;
 }
+
+.preco {
 
 .preco {
     margin-left: 13px;
