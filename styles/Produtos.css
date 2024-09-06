@@ -101,7 +101,7 @@ div.star p{
 .heart{
     display: flex;
     align-items: center;
-    font-size: 135%;
+    font-size: 22px;
 }
 
 .fav{
